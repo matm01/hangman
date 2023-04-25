@@ -99,8 +99,7 @@ def print_hangman(mistakes, difficulty, hidden_word, used_letters, word, status,
         print('       The word was >>>' + ''.join(word) + '<<<')
         print(gallow[mistakes + difficulty])
         print('U have been hanged')
-        print()    
- 
+        print()  
 
 
 game()
